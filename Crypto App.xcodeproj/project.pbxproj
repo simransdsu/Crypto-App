@@ -23,6 +23,7 @@
 		49D103A7278C860C00E86E06 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D103A6278C860C00E86E06 /* HomeView.swift */; };
 		49D103AB278C86DA00E86E06 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D103AA278C86DA00E86E06 /* CircleButtonView.swift */; };
 		49D103AD278C88FE00E86E06 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D103AC278C88FE00E86E06 /* CircleButtonAnimationView.swift */; };
+		49D9D30F2791C5D800A1E08A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D9D30E2791C5D800A1E08A /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		49D103A6278C860C00E86E06 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		49D103AA278C86DA00E86E06 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		49D103AC278C88FE00E86E06 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		49D9D30E2791C5D800A1E08A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		49D103A5278C860100E86E06 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				49D9D30E2791C5D800A1E08A /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				49D10392278C827000E86E06 /* CryptoApp.swift in Sources */,
 				490AACFD278F281900583761 /* CoinModel.swift in Sources */,
 				49D103AD278C88FE00E86E06 /* CircleButtonAnimationView.swift in Sources */,
+				49D9D30F2791C5D800A1E08A /* HomeViewModel.swift in Sources */,
 				490AACFE278F281900583761 /* CoinDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
