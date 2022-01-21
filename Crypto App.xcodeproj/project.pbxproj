@@ -20,6 +20,8 @@
 		4911B9EA27970CE4004D2542 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9E927970CE4004D2542 /* CoinImageService.swift */; };
 		4911B9EC27970DF7004D2542 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */; };
 		49AF8BE82799B5A200CECCB1 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF8BE72799B5A200CECCB1 /* LocalFileManager.swift */; };
+		49AF8BEA279B032200CECCB1 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF8BE9279B032200CECCB1 /* SearchBarView.swift */; };
+		49B1B23C279B07E1007CB34F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B1B23B279B07E1007CB34F /* UIApplication.swift */; };
 		49D10392278C827000E86E06 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10391278C827000E86E06 /* CryptoApp.swift */; };
 		49D10394278C827000E86E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D10393278C827000E86E06 /* ContentView.swift */; };
 		49D10396278C827200E86E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D10395278C827200E86E06 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		4911B9E927970CE4004D2542 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		49AF8BE72799B5A200CECCB1 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		49AF8BE9279B032200CECCB1 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		49B1B23B279B07E1007CB34F /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		49D1038E278C827000E86E06 /* Crypto App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49D10391278C827000E86E06 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		49D10393278C827000E86E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 				490AAD03278F307200583761 /* String.swift */,
 				490AAD01278F304A00583761 /* PreviewProvider.swift */,
 				49D103A0278C840A00E86E06 /* Color+Extension.swift */,
+				49B1B23B279B07E1007CB34F /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			children = (
 				4911B9E627970AC9004D2542 /* CoinImage */,
 				49D103A9278C86CE00E86E06 /* CircleButton */,
+				49AF8BE9279B032200CECCB1 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B1B23C279B07E1007CB34F /* UIApplication.swift in Sources */,
 				490AACFC278F281900583761 /* StatisticModel.swift in Sources */,
 				490AAD04278F307200583761 /* String.swift in Sources */,
 				490AAD02278F304A00583761 /* PreviewProvider.swift in Sources */,
@@ -300,6 +307,7 @@
 				4911B9EC27970DF7004D2542 /* CoinImageViewModel.swift in Sources */,
 				490AACFD278F281900583761 /* CoinModel.swift in Sources */,
 				49D103AD278C88FE00E86E06 /* CircleButtonAnimationView.swift in Sources */,
+				49AF8BEA279B032200CECCB1 /* SearchBarView.swift in Sources */,
 				49D9D30F2791C5D800A1E08A /* HomeViewModel.swift in Sources */,
 				490AACFE278F281900583761 /* CoinDetailModel.swift in Sources */,
 				49AF8BE82799B5A200CECCB1 /* LocalFileManager.swift in Sources */,
