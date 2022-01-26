@@ -19,6 +19,7 @@
 		4911B9E827970AD7004D2542 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9E727970AD7004D2542 /* CoinImageView.swift */; };
 		4911B9EA27970CE4004D2542 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9E927970CE4004D2542 /* CoinImageService.swift */; };
 		4911B9EC27970DF7004D2542 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */; };
+		495CA46327A176800062DEB1 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA46227A176800062DEB1 /* MarketDataService.swift */; };
 		4973CB16279F808300990AEF /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973CB15279F808300990AEF /* StatisticView.swift */; };
 		4973CB18279F82FA00990AEF /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4973CB17279F82FA00990AEF /* HomeStatsView.swift */; };
 		49AF8BE82799B5A200CECCB1 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AF8BE72799B5A200CECCB1 /* LocalFileManager.swift */; };
@@ -49,6 +50,7 @@
 		4911B9E727970AD7004D2542 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		4911B9E927970CE4004D2542 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		495CA46227A176800062DEB1 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		4973CB15279F808300990AEF /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		4973CB17279F82FA00990AEF /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		49AF8BE72799B5A200CECCB1 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 			children = (
 				49D9D3112791CEBF00A1E08A /* CoinDataService.swift */,
 				4911B9E927970CE4004D2542 /* CoinImageService.swift */,
+				495CA46227A176800062DEB1 /* MarketDataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				49D10394278C827000E86E06 /* ContentView.swift in Sources */,
 				490AAD06278F327F00583761 /* Double.swift in Sources */,
 				49D103A7278C860C00E86E06 /* HomeView.swift in Sources */,
+				495CA46327A176800062DEB1 /* MarketDataService.swift in Sources */,
 				49D103A1278C840A00E86E06 /* Color+Extension.swift in Sources */,
 				49D103AB278C86DA00E86E06 /* CircleButtonView.swift in Sources */,
 				4911B9EA27970CE4004D2542 /* CoinImageService.swift in Sources */,
