@@ -57,7 +57,7 @@ extension PortfolioView {
                         .padding(4)
                         .onTapGesture {
                             withAnimation(.easeIn) {
-                                selectedCoin = coin
+                                updateSelectedCoin(coin: coin)
                             }
                         }
                         .background(
@@ -129,9 +129,13 @@ extension PortfolioView {
     }
     
     private func saveButtonPressed() {
-        guard let coint = selectedCoin else { return }
+        guard let coin = selectedCoin,
+            let amount = Double(quantityText) else {
+            return
+        }
         
         // save to portfolio
+        homeVM.updatePortfolio(coin: coin, amount: amount)
         
         // show checkmar
         withAnimation(.easeIn) {
@@ -148,6 +152,19 @@ extension PortfolioView {
                 showCheckmark = false
             }
         }
+    }
+    
+    private func updateSelectedCoin(coin: CoinModel) {
+        selectedCoin = coin
+        
+        if let portfolioCoin = homeVM.portfolioCoins.first(where: { $0.id == coin.id }),
+           let amount = portfolioCoin.currentHoldings {
+            quantityText = "\(amount)"
+        } else {
+            quantityText = ""
+        }
+        
+        
     }
     
     private func removedSelectedCoin() {
