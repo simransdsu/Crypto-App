@@ -21,6 +21,7 @@
 		4911B9EC27970DF7004D2542 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */; };
 		491AEDB927AC19E900E002A7 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 491AEDB727AC19E900E002A7 /* PortfolioContainer.xcdatamodeld */; };
 		491AEDBB27AC1A7D00E002A7 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491AEDBA27AC1A7D00E002A7 /* PortfolioDataService.swift */; };
+		49301E9827B4167C00890A1B /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49301E9727B4167C00890A1B /* HapticManager.swift */; };
 		495CA46327A176800062DEB1 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA46227A176800062DEB1 /* MarketDataService.swift */; };
 		495CA46527A180D00062DEB1 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA46427A180D00062DEB1 /* PortfolioView.swift */; };
 		495CA46727A187DC0062DEB1 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495CA46627A187DC0062DEB1 /* XMarkButton.swift */; };
@@ -57,6 +58,7 @@
 		4911B9EB27970DF7004D2542 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		491AEDB827AC19E900E002A7 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		491AEDBA27AC1A7D00E002A7 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		49301E9727B4167C00890A1B /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		495CA46227A176800062DEB1 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		495CA46427A180D00062DEB1 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		495CA46627A187DC0062DEB1 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				4911B9E4279704FC004D2542 /* NetworkingManager.swift */,
 				49AF8BE72799B5A200CECCB1 /* LocalFileManager.swift */,
+				49301E9727B4167C00890A1B /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			files = (
 				49B1B23C279B07E1007CB34F /* UIApplication.swift in Sources */,
 				4973CB16279F808300990AEF /* StatisticView.swift in Sources */,
+				49301E9827B4167C00890A1B /* HapticManager.swift in Sources */,
 				490AACFC278F281900583761 /* StatisticModel.swift in Sources */,
 				495CA46727A187DC0062DEB1 /* XMarkButton.swift in Sources */,
 				490AAD04278F307200583761 /* String.swift in Sources */,

@@ -65,6 +65,7 @@ class HomeViewModel: ObservableObject {
         isLoading = true
         coinDataService.getCoins()
         marketDataService.getMarketData()
+        HapticManager.notification(type: .success)
     }
     
     private func mapAllCoinsToPortfolioCoins(coinModels: [CoinModel], portfolioEntities: [PortfolioEntity]) -> [CoinModel] {
