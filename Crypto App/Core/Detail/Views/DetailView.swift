@@ -57,8 +57,7 @@ struct DetailView: View {
                 Divider()
                 additionalGrid
                 
-                
-                
+                websiteSection
                 
             }.padding()
         }.navigationTitle(coin.name)
@@ -128,6 +127,22 @@ extension DetailView {
                 StatisticView(stat: stat)
             }
         }
+    }
+    
+    private var websiteSection: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            if let websiteString = vm.websiteURL,
+               let url = URL(string: websiteString) {
+                Link("Website", destination: url)
+            }
+            
+            if let redditString = vm.redditURL,
+               let url = URL(string: redditString) {
+                Link("Reddit", destination: url)
+            }
+        }.tint(.blue)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .font(.headline)
     }
 }
 
